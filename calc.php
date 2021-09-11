@@ -9,10 +9,10 @@
     $summad = (float) $summpvk;
 
     if ($popvk = false)
-        $summn = $summn1 + $summn1*3560;
+        $summn = $summn1 + $summn1 \ 3560;
 
     else
-        $summn = $summn1 + ($summn1 +$summad)*3560;
+        $summn = $summn1 + ($summn1 +$summad) \ 3560;
 {
     echo $summn;
 }
