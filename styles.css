@@ -25,8 +25,9 @@ header .top .phones a {
     font-family: "Europe", sans-serif;
 }
 body {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .topnav {
@@ -37,6 +38,8 @@ body {
 }
 
 .topnav a {
+    border-left: 1px solid red; /* Линия слева от текста */
+    border-right: 1px solid red; /* Линия справа от текста */
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -78,6 +81,8 @@ body {
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
+    background-color: transparent;
+
 }
 
 /* Отображение элементов списка бок о бок */
@@ -96,6 +101,7 @@ ul.breadcrumb li+li:before {
 /* Добавить цвет для всех ссылок внутри списка */
 ul.breadcrumb li a {
     color: black;
+    text-decoration: underline;
 }
 
 /* Добавить цвет на наведении курсора мыши */
